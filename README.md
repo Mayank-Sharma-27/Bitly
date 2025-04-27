@@ -33,3 +33,6 @@ Memory = 2B * 160 bytes = 320,000,000,000 bytes
 
 
 We can use multiple redis instance to store this much data.
+
+We can either have a cdn as well but only drawback with that approach is that the reuqest will not reach our 
+servers so which might be bad for the analytics
